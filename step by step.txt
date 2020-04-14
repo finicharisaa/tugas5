@@ -1,0 +1,52 @@
+step by step
+
+install laravel dengan cara laravel new nama file
+contoh
+laravel new tugas5 
+
+selanjutnya , daftarkan database didalam file .env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=table1 <------- nama database
+DB_USERNAME=root <------ username database
+DB_PASSWORD= <----password database username , jika password null , kosongin saja
+
+
+selanjutnya buat migration database 
+
+php artisan make:migration create_mahasiswas_table --create=mahasiswas
+jalankan didalam terminal / commandprompt file laravel nya
+mahasiswas yang berarti nama table nya
+
+
+setelah sudah dijalankan command nya , pergi ke dalam folder database/migrations cari file
+table mahasiswas nya , krna sebelumnya kita buat migration mahasiswas , berarti nama file nya
+akan seperti
+tanggal-dibuat_create_mahasiswas_table.php
+docs tentang migration : https://laravel.com/docs/7.x/migrations
+
+
+setelah buat migrations , kita buat models , 
+jalankan perintah seperti ini php artisan make:model Mahasiswa
+docs tentang model : https://laravel.com/docs/7.x/eloquent
+
+
+setelah itu buat routing nya didalam routes/web
+
+
+setelah itu , buat controller function nya , dari menampilkan sampai eksekusi feature
+
+setelah itu , buat views nya didalam fodler resources/views
+
+dah , hrusnya sampai sini paham , w gk bisa mic , dah ditegur emak
+emak ku gk bisa tidur ok
+wowkowkwokwo
+
+wkkwkwkwk 
+wehh td kau jalanin command di terminal
+mmg bs ya? bisa
+coba aja
+ini aku bikin 1 model lgi ya
+ok
+
